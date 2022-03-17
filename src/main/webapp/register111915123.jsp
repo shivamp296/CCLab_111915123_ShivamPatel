@@ -8,8 +8,9 @@
 </head>
 <body>
 	<form action="Registershivam" method="post">
-					<label for="chk" aria-hidden="true">Sign up</label>
+					<label for="chk" aria-hidden="true"><h1>!! Sign Up Page !!</h1></label>
 					<br/>
+					<h3>** Basic Details **</h3>
 					<input type="text" name="eid" placeholder="Employee_Id" required="">
 					<br/>
 					<input type="text" name="fname" placeholder="First Nmae" required="">
@@ -21,7 +22,7 @@
 					<input type="text" name="contact" placeholder="Contact Number" required="">
 					<br/>
 					
-					<h1>Salary Details</h1>
+					<h3>** Salary Details **</h3>
 					<input type="text" name="jobrole" placeholder="jobrole" required="">
 					<br/>
 					<input type="text" name="monthlysalary" placeholder="Monthly Salary" required="">
@@ -30,7 +31,11 @@
 					<br/>
 					<input type="password" name="pass" placeholder="Password" required="">
 					<br/>
-					<button type="submit">Sign up</button>
+					<div>
+					<br>
+						<button type="submit">Sign up</button>
+					</div>
+					
 	</form>
 </body>
 </html>
